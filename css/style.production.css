@@ -417,6 +417,13 @@ section #work {
     }
 }
 
+@media all and (max-width: 950px){
+    .page{
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
 @media all and (min-width: 500px) and (max-width: 750px) {
     .grid {
         -ms-grid-columns: 1fr 10px 1fr;
