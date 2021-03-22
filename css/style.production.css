@@ -116,7 +116,7 @@ button:hover, button:focus, .button:hover, button:focus {
     display: flex;
     width: 100%;
     padding: 20px;
-    border-bottom: 1px solid rgba(107, 105, 105, 0.2);
+    border-bottom: 1px solid rgb(0, 217, 255);
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
@@ -436,7 +436,7 @@ section #work {
 /* Footer */
 .page-footer {
     clear: both;
-    border-top: 2px solid rgba(107, 105, 105, 0.2);
+    border-top: 1px solid rgb(0, 217, 255);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
