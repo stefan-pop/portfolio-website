@@ -5,6 +5,9 @@
 * Browsers: last 4 version
 */
 
+::-webkit-scrollbar{
+    display: none;
+}
 
 *{
     -webkit-box-sizing: border-box;
