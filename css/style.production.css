@@ -522,7 +522,6 @@ section #work {
 /* Footer */
 .page-footer {
   clear: both;
-  border-top: 1px solid rgb(0, 217, 255);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
