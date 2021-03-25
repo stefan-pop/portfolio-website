@@ -145,6 +145,7 @@ button:focus {
 .page-header .page-header__item:first-child {
   max-width: 200px;
   max-height: 65px;
+  margin-top: 20px;
 }
 
 .navigation-list,
