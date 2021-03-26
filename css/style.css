@@ -397,7 +397,6 @@ section #work {
 }
 
 /* END GRID FALLBACK */
-
 @supports ( display: grid) {
   .grid {
     display: grid;
