@@ -13,6 +13,9 @@
   --sun-fill__secondary: #fcffad;
   --sun-fill__tertiary: #f76414;
   --ButtonAndForm-radius: 3px;
+  --grid-background: #d3d3d3;
+}
+
 }
 
 * {
