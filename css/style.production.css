@@ -35,6 +35,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 80%;
+  padding: 0 10px;
   margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -192,7 +193,14 @@ button:focus {
 
 /* Toggle menu */
 
-.main-navigation label,
+.main-navigation label {
+  font-size: 32px;
+  display: none;
+  cursor: pointer;
+  width: 32px;
+  color: #357b70;
+}
+
 #burger {
   font-size: 32px;
   display: none;
@@ -203,10 +211,20 @@ button:focus {
 
 @media all and (max-width: 550px) {
   .profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    text-align: center;
   }
 
   .profile__portrait {
@@ -243,6 +261,8 @@ button:focus {
     text-align: center;
     padding-top: 25%;
     margin: 0;
+    -webkit-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
     transition: 0.5s all ease-in-out;
   }
 
@@ -257,12 +277,18 @@ button:focus {
     text-decoration: none;
     font-size: 22px;
     width: 100%;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
     transition: 0.5s all;
   }
 
-  .navigation-list .navigation-list__item:hover,
+  .navigation-list .navigation-list__item:hover {
+    background-color: #e0b354;
+    font-size: 25px;
+  }
+
   .navigation-list .navigation-list__item:focus {
-    background-color: #357b70;
+    background-color: #e0b354;
     font-size: 25px;
   }
 
@@ -535,4 +561,11 @@ section #work {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+}
+
+.page-footer .social-links {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 3px;
+  cursor: pointer;
 }
