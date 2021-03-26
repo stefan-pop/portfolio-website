@@ -193,6 +193,76 @@ button:focus {
   color: var(--primary-color);
 }
 
+@media all and (max-width: 550px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile__portrait {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .page-header .page-header__item:first-child {
+    display: none;
+  }
+
+  .page-header {
+    border-bottom: none;
+  }
+
+  .main-navigation label {
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    z-index: 100;
+    line-height: 40px;
+  }
+
+  .navigation-list {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -100%;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(39, 38, 38);
+    text-align: center;
+    padding-top: 25%;
+    margin: 0;
+    transition: 0.5s all ease-in-out;
+  }
+
+  .navigation-list > li {
+    display: block;
+    margin: 0;
+  }
+
+  .navigation-list .navigation-list__item {
+    display: block;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 22px;
+    width: 100%;
+    transition: 0.5s all;
+  }
+
+  .navigation-list .navigation-list__item:hover,
+  .navigation-list .navigation-list__item:focus {
+    background-color: var(--secondary-color);
+    font-size: 25px;
+  }
+
+  .main-navigation #burger:checked ~ .navigation-list {
+    left: 0;
+  }
+}
+
 /* End of Home page */
 
 /* About me page */
