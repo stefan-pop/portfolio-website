@@ -182,6 +182,17 @@ button:focus {
   background-color: var(--decorated-word);
 }
 
+/* Toggle menu */
+
+.main-navigation label,
+#burger {
+  font-size: 32px;
+  display: none;
+  cursor: pointer;
+  width: 32px;
+  color: var(--primary-color);
+}
+
 /* End of Home page */
 
 /* About me page */
