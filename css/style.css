@@ -472,3 +472,7 @@ section #work {
   padding: 0 3px;
   cursor: pointer;
 }
+
+.page-footer > p {
+  font-size: 12px;
+}
