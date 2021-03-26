@@ -295,7 +295,7 @@ address {
   }
 
   .grid__item {
-    background-color: lightgray;
+    background-color: var(--grid-background);
     padding: 10px;
     width: auto;
     min-height: auto;
