@@ -215,6 +215,7 @@ button:focus {
 
   .page-header {
     border-bottom: none;
+    height: 60px;
   }
 
   .main-navigation label {
