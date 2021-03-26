@@ -16,6 +16,8 @@
   --grid-background: #d3d3d3;
 }
 
+::-webkit-scrollbar {
+  display: none;
 }
 
 * {
