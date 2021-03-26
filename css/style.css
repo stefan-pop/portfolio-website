@@ -82,7 +82,19 @@ a:active {
   color: var(--white);
 }
 
-button,
+button {
+  border: none;
+  display: inline-block;
+  font-family: inherit;
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: var(--ButtonAndForm-radius);
+  transition: 0.2s opacity;
+  box-shadow: var(--buttons-shadow);
+}
+
 .button {
   border: none;
   display: inline-block;
