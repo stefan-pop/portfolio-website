@@ -37,6 +37,7 @@ body {
   font-weight: 700;
   line-height: 1.6;
   overflow: hidden;
+  background-color: #bee0d9;
 }
 
 /* Main skeleton of all pages */
@@ -51,6 +52,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  background-color: rgb(250, 245, 245);
 }
 
 .page-content {
