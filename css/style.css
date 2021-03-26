@@ -386,6 +386,10 @@ address {
 
 /* Work page */
 
+section #work {
+  text-align: center;
+}
+
 /* GRID FALLBACK  */
 .grid__item {
   display: inline-block;
