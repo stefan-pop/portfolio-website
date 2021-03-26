@@ -27,6 +27,7 @@ body {
   font-weight: 700;
   line-height: 1.6;
   overflow: hidden;
+  background-color: #bee0d9;
 }
 
 /* Main skeleton of all pages */
@@ -41,6 +42,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  background-color: rgb(250, 245, 245);
 }
 
 .page-content {
@@ -238,7 +240,7 @@ button:focus {
 
   .page-header {
     border-bottom: none;
-    height: 100px;
+    height: 60px;
   }
 
   .main-navigation label {
@@ -338,7 +340,7 @@ button:focus {
 
 @-webkit-keyframes cloud-move {
   0% {
-    -webkit-transform: translate(0, 50px), scale(0.5, 0.5);
+    -webkit-transform: translate(0, 50px) scale(0.5, 0.5);
     transform: translate(0, 50px);
     transform: scale(0.5, 0.5);
   }
@@ -351,7 +353,7 @@ button:focus {
 
 @keyframes cloud-move {
   0% {
-    -webkit-transform: translate(0, 50px), scale(0.5, 0.5);
+    -webkit-transform: translate(0, 50px) scale(0.5, 0.5);
     transform: translate(0, 50px);
     transform: scale(0.5, 0.5);
   }
@@ -568,4 +570,8 @@ section #work {
   display: inline-block;
   padding: 0 3px;
   cursor: pointer;
+}
+
+.page-footer > p {
+  font-size: 12px;
 }
