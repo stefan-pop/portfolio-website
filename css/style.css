@@ -342,7 +342,6 @@ address {
 /* Footer */
 .page-footer {
   clear: both;
-  border-top: 2px solid rgba(107, 105, 105, 0.2);
   display: flex;
   flex-direction: column;
   text-align: center;
