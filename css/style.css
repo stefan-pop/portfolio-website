@@ -339,7 +339,15 @@ main {
   margin-top: 20px;
 }
 
-#contact-form input,
+#contact-form input {
+  width: 100%;
+  line-height: 2;
+  border: none;
+  border-radius: var(--ButtonAndForm-radius);
+  border-bottom: var(--header-footer__border);
+  margin-top: 10px;
+}
+
 textarea {
   width: 100%;
   line-height: 2;
