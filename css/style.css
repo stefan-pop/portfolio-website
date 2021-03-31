@@ -494,7 +494,7 @@ section #work {
 .page-footer .social-links {
   text-decoration: none;
   display: inline-block;
-  padding: 0 3px;
+  padding: 5px 3px 0;
   cursor: pointer;
 }
 
