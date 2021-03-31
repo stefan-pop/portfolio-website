@@ -397,16 +397,28 @@ section #work {
 
 /* GRID FALLBACK  */
 .grid {
-  display: flex;
-  flex-wrap: wrap;
+  text-align: center;
 }
 
 .grid__item {
-  flex: 1 1 29%;
+  display: inline-block;
+  width: 30%;
   margin: 1%;
   padding: 1%;
-  min-width: 250px;
+  text-align: left;
   background-color: var(--grid-background);
+}
+
+@media all and (max-width: 750px) {
+  .grid__item {
+    width: 47%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .grid__item {
+    width: 98%;
+  }
 }
 
 /* END GRID FALLBACK */
