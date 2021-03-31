@@ -406,6 +406,7 @@ section #work {
   margin: 1%;
   padding: 1%;
   min-width: 250px;
+  background-color: var(--grid-background);
 }
 
 /* END GRID FALLBACK */
