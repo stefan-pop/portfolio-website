@@ -430,6 +430,13 @@ section #work {
     margin: 0;
   }
 
+  .grid__item > img {
+    display: block;
+    max-width: 445px;
+    width: 100%;
+    height: auto;
+  }
+
   .grid__item {
     background-color: var(--grid-background);
     padding: 10px;
