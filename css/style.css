@@ -438,6 +438,9 @@ section #work {
   }
 
   .grid__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: var(--grid-background);
     padding: 10px;
     width: auto;
