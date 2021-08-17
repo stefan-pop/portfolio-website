@@ -55,21 +55,24 @@
                 </div>
                 </div>
                 
-                <form method="post" id="contact-form">
+                <form action="https://formsubmit.co/46d71fdb0fa985f734b758ac489080e3" method="POST" id="contact-form">
 
                     <label class="standard-label" for="userName">Name:</label> <br>   
-                    <input type="text" id="userName" required> <br>
+                    <input type="text" id="userName" name="userName" required> <br>
 
                     <label class="standard-label" for="userEmail">Email:</label> <br>   
-                    <input type="email" id="userEmail"  required> <br>
+                    <input type="email" id="userEmail" name="email" required> <br>
 
                     <label class="standard-label" for="userPhone">Telephone:</label> <br>
-                    <input type="tel" id="userPhone" pattern=""> <br>                    
+                    <input type="tel" id="userPhone" name="phone" > <br>                    
 
                     <label class="standard-label" for="userMessage">Message</label> <br>
-                    <textarea name="message us" id="userMessage" rows="6"  maxlength="250" placeholder="Send me a message no longer than 250 characters..." required></textarea> <br>
+                    <textarea name="message" id="userMessage" rows="6"  maxlength="250" placeholder="Send me a message no longer than 250 characters..." required></textarea> <br>
 
-                    <input id="submit-contact__form" class="button" type="submit" value="Send message">
+                    <input type="hidden" name="_next" value="https://stefan-pop.github.io/portfolio-website/thankyou.html">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <button type="submit">Submit</button>
                 
                 </form>
             </main>  
