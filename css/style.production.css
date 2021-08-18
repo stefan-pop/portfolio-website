@@ -443,10 +443,8 @@ textarea {
   border-radius: 3px;
   border-bottom: 1px solid rgba(107, 105, 105, 0.2);
   margin-top: 10px;
-}
-
-textarea {
   resize: vertical;
+  padding: 0 5px;
 }
 
 form > #submit-contact__form {
