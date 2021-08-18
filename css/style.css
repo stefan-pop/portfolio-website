@@ -452,6 +452,7 @@ section #work {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--grid-background);
     padding: 10px;
     width: auto;
