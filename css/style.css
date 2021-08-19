@@ -463,6 +463,14 @@ section #work {
     grid-row: 1/3;
   }
 
+  .project-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 10px;
+  }
+
   @media all and (max-width: 750px) {
     .grid {
       display: grid;

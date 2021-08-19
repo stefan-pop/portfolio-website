@@ -550,6 +550,19 @@ section #work {
     grid-row: 1/3;
   }
 
+  .project-buttons {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5px 10px;
+  }
+
   @media all and (max-width: 750px) {
     .grid {
       display: -ms-grid;
